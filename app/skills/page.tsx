@@ -117,7 +117,7 @@ export default function SkillsPage() {
           </motion.div>
 
           {/* STATISTIQUES */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.6 }}
@@ -125,12 +125,12 @@ export default function SkillsPage() {
           >
             {[
               { label: "Total", value: skillsData.length },
-              { label: "Langages", value: skillsData.filter((s) => s.category === "Languages").length },
+              { label: "Langages", value: skillsData.filter((s) => s.category === "Langages").length },
               { label: "Frameworks", value: skillsData.filter((s) => s.category === "Frameworks").length },
               {
                 label: "Outils & Plateformes",
                 value: skillsData.filter(
-                  (s) => s.category === "Design Tools" || s.category === "Other Tools"
+                  (s) => s.category === "Outils de Design" || s.category === "Autres Outils"
                 ).length,
               },
             ].map((stat) => (
@@ -144,7 +144,7 @@ export default function SkillsPage() {
                 <p className="text-sm text-muted-foreground">{stat.label}</p>
               </div>
             ))}
-          </motion.div>
+          </motion.div> */}
         </div>
       </section>
 

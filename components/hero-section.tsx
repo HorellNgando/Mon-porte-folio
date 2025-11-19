@@ -7,10 +7,10 @@ import { FloatingElements } from "@/components/floating-elements"
 
 export function HeroSection() {
   const stats = [
-    { number: "14", label: "Projects" },
-    { number: "50+", label: "Clients" },
-    { number: "1.5K", label: "Followers" },
-    { number: "14", label: "Awards" },
+    { number: "9", label: "Projects" },
+    { number: "5", label: "Clients" },
+    { number: "3", label: "Compétences" },
+    { number: "3", label: "Formations" },
   ]
 
   const socialLinks = [

@@ -90,7 +90,7 @@ export default function ServicesPage() {
                   </ul>
                 </div>
 
-                {/* CTA */}
+                {/* CTA
                 <Link href="/contact">
                   <motion.button
                     whileHover={{ scale: 1.03 }}
@@ -99,7 +99,7 @@ export default function ServicesPage() {
                   >
                     Me contacter
                   </motion.button>
-                </Link>
+                </Link> */}
               </motion.div>
             ))}
           </motion.div>

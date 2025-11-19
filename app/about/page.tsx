@@ -50,7 +50,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center"
           >
-            <div className="space-y-7 order-2 md:order-1">
+            <div className="space-y-5 order-1 md:order-1">
               <h2 className="text-4xl md:text-5xl font-bold leading-tight">Qui je suis</h2>
               <div className="space-y-5 text-lg text-muted-foreground leading-relaxed">
                 <p>
@@ -74,12 +74,12 @@ export default function AboutPage() {
             <motion.div
               whileHover={{ scale: 1.03 }}
               transition={{ duration: 0.5, ease: "easeOut" }}
-              className="relative order-1 md:order-2"
+              className="relative order-2 md:order-2"
             >
               <div className="absolute -inset-2 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-3xl blur-2xl opacity-70 group-hover:opacity-90 transition"></div>
               <div className="relative rounded-3xl overflow-hidden border border-border/50 shadow-2xl">
                 <img
-                  src="/professional-portrait.jpg"
+                  src="/me1.jpg"
                   alt="Portrait professionnel"
                   className="w-full h-full min-h-96 object-cover transition-transform duration-700 hover:scale-105"
                 />

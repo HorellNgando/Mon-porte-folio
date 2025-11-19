@@ -60,20 +60,21 @@ export const services: Service[] = [
     price: "Sur mesure",
   },
   {
-    id: "app-design",
-    title: "Design d'Applications",
-    description: "Design d'applications natives et cross-platform",
-    longDescription:
-      "Du concept au lancement, je conçois des expériences mobiles intuitives et engageantes que les utilisateurs adorent et qui génèrent des résultats business.",
-    icon: "smartphone",
-    features: [
-      "Design iOS",
-      "Design Android",
-      "User Flows",
-      "Design d'Animations",
-      "Transmission du Design",
-      "Support Continu",
-    ],
-    price: "Sur mesure",
-  },
+  id: "app-design",
+  title: "Vidéos Publicitaires",
+  description: "Création de vidéos publicitaires percutantes et professionnelles",
+  longDescription:
+    "Je réalise des vidéos publicitaires dynamiques, modernes et adaptées à votre marque. De l’écriture du concept au montage final, chaque vidéo est conçue pour attirer l’attention, améliorer la visibilité de votre produit et renforcer l’impact de votre communication.",
+  icon: "Smartphone",
+  features: [
+    "Conception du script",
+    "Sélection du style visuel",
+    "Montage et Motion Design",
+    "Effets visuels & transitions",
+    "Optimisation réseaux sociaux",
+    "Livraison haute qualité",
+  ],
+  price: "Sur mesure",
+},
+
 ]

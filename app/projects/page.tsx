@@ -72,7 +72,7 @@ export default function ProjectsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             {filteredProjects.map((project, index) => (
               <Link
-                key={`${project.id}-${index}`} // ✅ Clé unique
+                key={`${project.id}-${index}`} 
                 href={`/projects/${project.slug}`}
                 className="group animate-fadeInUp"
                 style={{ animationDelay: `${index * 50}ms` }}

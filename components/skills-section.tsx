@@ -46,7 +46,7 @@ export function SkillsSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
           {skillCategories.map((skill, index) => {
             const Icon = skill.icon
             return (
